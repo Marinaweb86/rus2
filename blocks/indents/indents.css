@@ -1,0 +1,41 @@
+.margin-top-bottom_zero {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.margin-top_zero {
+  margin-top: 0;
+}
+
+.margin-bottom_zero {
+  margin-bottom: 0;
+}
+
+.margin-top_m {
+  margin-top: 20px;
+}
+
+.margin-bottom_m {
+  margin-bottom: 20px;
+}
+
+.margin-top_l {
+  margin-top: 60px;
+}
+
+.margin-top_xl {
+  margin-top: 100px;
+}
+
+.margin-row {
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+.padding-top_xl {
+  padding-top: 100px;
+}
+
+.padding-bottom_xl {
+  padding-bottom: 100px;
+}

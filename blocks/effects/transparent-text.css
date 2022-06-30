@@ -1,0 +1,7 @@
+a {
+  transition: 0.5s linear;
+ }
+
+ a:hover {
+  opacity: 0.5;
+ }
