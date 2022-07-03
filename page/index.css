@@ -12,5 +12,5 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/indents/indents.css);
-@import url(../blocks/effects/transparent-text.css);
-@import url(../blocks/effects/spin.css);
+@import url(../blocks/effects/rotation.css);
+@import url(../blocks/link/link.css);

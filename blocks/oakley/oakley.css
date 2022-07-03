@@ -1,36 +1,4 @@
-.oakley__background-color {
-  display: flex;
+.oakley {
   padding-top: 160px;
   background-color: #f2f2f2;
-}
-
-.oakley {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.oakley_two-columns__brief {
-  margin-top: 0;
-  display:flex;
-  width: 175px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color:#2f80ed;
-}
-
-.oakley_two-columns__main-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 80%;
-}
-
-.oakley_two-columns__paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }

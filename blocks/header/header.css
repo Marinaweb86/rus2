@@ -9,7 +9,7 @@
   background-color: #f2f2f2;
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -18,9 +18,9 @@
   }
 
 .header__title {
-  position: relative;
-  left: 64px;
-  width: 730px;
+  margin: 0;
+  margin-left: 64px;
+  max-width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -28,10 +28,11 @@
   }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
-  width: 338px;
+  max-width: 338px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -59,4 +60,8 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
+}
+
+.rotation {
+  animation:  rotation 20s linear 0s infinite;
 }

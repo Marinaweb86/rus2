@@ -1,5 +1,6 @@
 .khan {
   background-color: #f2f2f2;
+  padding-top: 100px;
 }
 
 .khan__container {
@@ -21,19 +22,19 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  margin-bottom: 50px;
 }
 
 .khan__quote {
-  width: 790px;
+  max-width: 790px;
   margin: 0;
+  margin-top: 50px;
+  margin-bottom: 36px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 36px;
 }
 
-.khan__quote_author {
+.khan__quote-author {
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -51,12 +52,13 @@
 .khan__book-container {
   margin-top: 68px;
   display: flex;
+  align-items: flex-start;
+  height: 608px;
 }
 
 .khan__book-pic {
   width: 620px;
-  height: 608px;
-  overflow: hidden;
+  z-index: 0;
 }
 
 .khan__buy-link {
