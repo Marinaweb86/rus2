@@ -7,20 +7,3 @@
   padding-top: 100px;
   box-sizing: border-box;
 }
-
-.video__iframes {
-  margin: 0;
-  margin-top: 50px;
-  padding: 0;
-  display: flex;
-  list-style-type: none;
-  column-gap: 20px;
-}
-
-.video__iframe {
-  margin: 0;
-  width: 515px;
-  height: 289.6875px;
-  border-width: 0;
-}
-

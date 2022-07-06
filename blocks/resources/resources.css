@@ -5,16 +5,3 @@
   align-items: center;
   padding-top: 100px;
 }
-
-.resources__logo-zone {
-  width: 1100px;
-  margin: 80px auto 217px;
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-}
-
-.resources__logo {
-  width: 270px;
-  height: 38px;
-}
