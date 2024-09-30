@@ -1,9 +1,0 @@
-.video {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: -60px;
-  padding-top: 100px;
-  box-sizing: border-box;
-}

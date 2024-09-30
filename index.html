@@ -1,236 +1,166 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./page/index.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rus2</title>
+    <link rel="stylesheet" href="./fonts/fonts/fonts.css">
+    <link rel="stylesheet" href="./page/index.css" />
+  </head>
 
-<body>
-  <div class="page">
+  <body>
     <header class="header">
-      <img src="./images/logo_place_header.svg" alt="Яндекс лого" class=" logo logo_place_header" >
-      <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link link">Узнать &#8594;</a></p>
-      <img src="./images/header-image.png" alt="Опять двойка?" class="header__main-illustration">
-      <div class="header__square-pic rotation"></div>
-    </header>
-    <main>
-      <section class="description">
-        <div class="two-columns">
-          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
-          <div class="two-columns__main-text">
-            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-            <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
-            <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
-          </div>
+      <nav class="header-menu">
+        <div class="header_arrow">
+          <a href="#" class="header__link_active">Направления
+          <img
+              class="arrow"
+              src="./images/Down_Arrow_3_.svg"
+              alt="белая галочка"
+            />
+          </a>
         </div>
-      </section>
-
-      <section class="techniques">
-        <h2 class="section-title">Техники обучения</h2>
-        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-        <ul class="cards">
-          <li class="cards__item">
-            <img src="./images/cards-attention.png" alt="Внимание" class="cards__image">
-            <h3 class="cards__title">Два вида внимания</h3>
-            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-          </li>
-          <li class="cards__item">
-            <img src="./images/cards-recall.png" alt="Вспоминайте" class="cards__image">
-            <h3 class="cards__title">Recall</h3>
-            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
-          </li>
-          <li class="cards__item">
-            <img src="./images/cards-interliving.png" alt="Интерливинг" class="cards__image">
-            <h3 class="cards__title">Интерливинг</h3>
-            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-          </li>
-          <li class="cards__item">
-            <img src="./images/cards-question.png" alt="Вопросы" class="cards__image">
-            <h3 class="cards__title">Вопросы</h3>
-            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
-          </li>
-          <li class="cards__item">
-            <img src="./images/cards-competence.png" alt="Иллюзия" class="cards__image">
-            <h3 class="cards__title">Иллюзия компетентности</h3>
-            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
-          </li>
-        </ul>
-      </section>
-
-      <section class="video">
-        <h2 class="section-title">Видео нa TED</h2>
-        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <ul class="video__iframes">
-          <li>
-            <iframe id="ytplayer" type="text/html"  class="video__iframe"
-            src="https://www.youtube.com/embed/arj7oStGLkU"
-            allowfullscreen></iframe>
-          </li>
-          <li>
-            <iframe id="ytplayer" type="text/html" class="video__iframe"
-            src="https://www.youtube.com/embed/5MgBikgcWnY"
-            allowfullscreen></iframe>
-          </li>
-        </ul>
-      </section>
-
-      <section class="oakley">
-        <div class="two-columns">
-          <h2 class="two-columns__brief">История Барбары Оакли.</h2>
-          <div class="two-columns__main-text">
-            <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть</p>
-        <a href="#" class="feynman__link link">Подробнее &#8594;</a>
-      </section>
-
-      <section class="digits">
-        <h2 class="section-title">Цифры и факты</h2>
-        <p class="section-subtitle">Про учёбу и мозг</p>
-        <ul class="table">
-          <li class="table__cell">
-            <h3 class="table__heading">86 миллиардов</h3>
-            <p class="table__text">Число нейронов в мозге человека</p>
-          </li>
-          <li class="table__cell">
-            <h3 class="table__heading">2.1 миллиарда</h3>
-            <p class="table__text">Число нуждающихся в повышении квалификации</p>
-            <p class="table__text">Всемирный Банк, 2017</p>
-          </li>
-          <li class="table__cell">
-            <h3 class="table__heading">1000 терабайт</h3>
-            <p class="table__text">Объём памяти человека</p>
-          </li>
-          <li class="table__cell">
-            <h3 class="table__heading">500 триллионов</h3>
-            <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
-          </li>
-          <li class="table__cell">
-            <h3 class="table__heading">420 миллионов</h3>
-            <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-            <p class="table__text">Всемирный Банк, 2017</p>
-          </li>
-          <li class="table__cell">
-            <h3 class="table__heading">17–20 лет</h3>
-            <p class="table__text">Пик обучаемости</p>
-          </li>
-          <li class="table__cell">
-            <h3 class="table__heading">1885 год</h3>
-            <p class="table__text">Открытие кривой забывания</p>
-          </li>
-          <li class="table__cell">
-            <h3 class="table__heading">1889 год</h3>
-            <p class="table__text">Открытие условного рефлекса</p>
-          </li>
-        </ul>
-      </section>
-
-      <section class="khan">
-        <div class="khan__container">
-          <p class="khan__author">Салман Хан</p>
-          <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-          <h3 class="khan__quote-author">Джордж Лукас</h3>
-          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
-          <div class="khan__book-container">
-            <img src="./images/khan-book.jpg" alt="Весь мир - школа" class="khan__book-pic">
-            <a href="#" class="khan__buy-link link">Купить книгу &#8594;</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="kaufman">
-        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
-        <div class="table table_theme_dark">
-          <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">1</h3>
-            <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
-          </div>
-          <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">2</h3>
-            <p class="table__text table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
-          </div>
-          <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">3</h3>
-            <p class="table__text table__text_theme_dark">Определите целевой уровень мастерства.</p>
-          </div>
-          <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">4</h3>
-            <p class="table__text table__text_theme_dark">Разбейте навык на элементы.</p>
-          </div>
-          <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">5</h3>
-            <p class="table__text table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
-          </div>
-          <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">6</h3>
-            <p class="table__text table__text_theme_dark">Устраните препятствия для занятий.</p>
-          </div>
-          <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">7</h3>
-            <p class="table__text table__text_theme_dark">Выделите специальное время для занятий.</p>
-          </div>
-          <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">8</h3>
-            <p class="table__text table__text_theme_dark">Создайте быстрые петли обратной связи.</p>
-          </div>
-          <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">9</h3>
-            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
-          </div>
-          <div class="table__cell table__cell_theme_dark">
-            <h3 class="table__heading table__heading_theme_dark">10</h3>
-            <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
-          </div>
-        </div>
-        <div class="kaufman__triangle rotation">
-      </section>
-
-      <section class="resources">
-        <h2 class="section-title">Полезные ресурсы</h2>
-        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <ul class="resources__logo-zone">
-            <li><a href="#" class="resouces__link link"><img src="./images/logo/resources-arzamas.svg" alt="Арзамас" class="resources__logo"></a></li>
-            <li><a href="#" class="resouces__link link"><img src="./images/logo/resources-n1.svg" alt="Н+1" class="resources__logo"></a></li>
-            <li><a href="#" class="resouces__link link"><img src="./images/logo/resources-strelka.svg" alt="Стрелка" class="resources__logo"></a></li>
-            <li><a href="#" class="resouces__link link"><img src="./images/logo/resources-polka.svg" alt="Полка" class="resources__logo"></a></li>
-        </ul>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer__columns">
-        <div class="footer__column footer__column_content_copyright">
-          <img src="./images/logo_place_footer.svg" alt="Яндекс Практикум" class="logo logo_place_footer">
-          <p class="footer__author">&copy; Марина Кирьянова 2022</p>
-        </div>
-        <nav class="footer__column footer__column_content_info">
-          <h3 class="footer__column-heading">О Практикуме</h3>
-          <ul class="footer__column-links">
-            <li><a href="#"  class="footer__column-link link">Главная</a></li>
-            <li><a href="#"  class="footer__column-link link">Концепция</a></li>
-            <li><a href="#"  class="footer__column-link link">Наставники</a></li>
-          </ul>
-        </nav>
-        <nav class="footer__column footer__column_content_social">
-          <h3 class="footer__column-heading">Соцсети</h3>
-          <ul class="footer__column-links">
-            <li><a href="#"  class="footer__column-link link"><img src="./images/facebook_color_white.svg" alt="Фейсбук" class="footer__social-icon">Facebook</a></li>
-            <li><a href="https://vk.com" class="footer__column-link link"><img src="./images/vk_color_white.svg" alt="ВКонтакте" class="footer__social-icon">Вконтакте</a></li>
-            <li><a href="#"  class="footer__column-link link"><img src="./images/instagram_color_white.svg" alt="Инстаграм" class="footer__social-icon">Instagram</a></li>
-          </ul>
-        </nav>
+          <a href="#" class="header__link">Портфолио</a>
+          <a href="#" class="header__link">Контакты</a>
+      </nav>
+      <div class="link">
+        <a href="#" class="header__links-list-item">Войти</a>
+        <button class="header-button">Регистрация</button>
       </div>
-    </footer>
-  </div>
-</body>
+    </header>
+    <main class="content">
+      <section class="why">
+        <h1 class="why__title">почему мы не используем coreldraw</h1>
+      </section>
+      <section class="about">
+        <div class="about-block">
+          <p class="about__text">
+            В мире дизайна мы сделали выбор в пользу Adobe, оставив за бортом
+            формат CorelDraw.<br />Давайте разберем, почему именно Adobe стал
+            нашим надежным союзником в творчестве.
+          </p>
+        </div>
+        <div class="adobe">
+          <img class="about-count _s" src="./images/1.svg"alt="цифра один"/>
+          <p class="about__text">
+            Adobe - это компания, представляющая широкий спектр продуктов, среди
+            которых вы, вероятно, знакомы с основными: 
+          </p>
+        </div>
+          <ul class="about__list">
+            <li class="about__list-item">
+              <div class="container">
+                <img class="about-image" src="./images/ill 1.svg" alt="изображение значка" />
+              </div>
+            </li>
+            <li class="about__list-item">
+              <div class="container">
+                <img class="about-image" src="./images/Group 1597880521.svg" alt="изображение значка пдф"/>
+              </div>
+            </li>
+            <li class="about__list-item">
+              <div class="container">
+                <img class="about-image" src="./images/ill 7.svg" alt="изображение значка премьер" />
+              </div>
+            </li>
+            <li class="about__list-item">
+              <div class="container">
+                <img class="about-image" src="./images/ill 4.svg" alt="изображение значка фотошоп" />
+              </div>
+            </li>
+            <li class="about__list-item">
+              <div class="container">
+                <img class="about-image" src="./images/ill 5.svg" alt="изображение значка"/>
+              </div>
+            </li>
+            <li class="about__list-item">
+              <div class="container">
+                <img class="about-image" src="./images/ill 6.svg" alt="изображение значка"/>
+              </div>
+            </li>
+          </ul>
+          <p class="about__text _right">а также более 90 других продуктов</p>
+          <p class="about__text _m">
+            Более тысячи специалистов по всему миру активно участвуют в
+            разработке и обеспечивают высокое качество продуктов и их
+            разнообразные возможности. В то время как CorelDraw ограничивается
+            только CorelDraw.
+          </p>
+          <div class="adobe">
+            <img class="about-count" src="./images/2.svg"alt="цифра два"/>
+            <p class="about__text">
+              Поддержка CorelDraw практически отсутствует в Европе и США,
+              поскольку более 98% типографий в этих регионах не используют данный
+              формат.
+            </p>
+          </div>
+          <div class="adobe">
+            <img class="about-count" src="./images/3.svg"alt="цифра три"/>
+            <p class="about__text">
+              Главный недостаток CorelDraw заключается в преобразовании документа
+              во внутренний формат bitmap. Это особенно заметно при обработке
+              растровых изображений, где могут возникнуть различные артефакты,
+              такие как неожиданные грани, изменение цветов или полная инверсия
+              изображения.
+            </p>
+          </div>
+          <div class="corel-group">
+            <img class="corel" src="./images/CorelDRW_gIEIFd6TrD.png"/>
+            <img class="corel" src="./images/CorelDRW_D3JGGZr4jt.png"/>
+          </div>
+          <div class="adobe">
+            <p class="about__text _m">
+            В отличие от этого, Illustrator лишен подобных неожиданностей и обладает полной совместимостью с форматами PDF и EPS, необходимыми для полиграфии. Важно отметить, что, несмотря на возможность сохранения файлов в формате PDF, CorelDraw плохо распознает PDF файлы, что может привести к потере некоторых элементов макета. Поэтому при подготовке макета для офсетной полиграфии Illustrator остается оптимальным выбором.
+            </p>
+          </div>
+         <div class="vectors">
+            <img class="vector" src="./images/Vector (1).svg"/>
+            <img class="group" src="./images/Group 1597880863.png"/>
+            <img class="vector" src="./images/Vector (2).svg"/>
+          </div>
+          <div class="groups">
+            <img class="group" src="./images/Group 1597880864.png"/>
+            <img class="group _l" src="./images/Group 1597880865.png"/>
+          </div>
+          <div class="booklets">
+            <img class="booklet" src="./images/буклет книжка жемчужина-03.png"/>
+            <img class="booklet" src="./images/буклет книжка жемчужина-04.png"/>
+            <img class="booklet" src="./images/буклет книжка жемчужина-05.png"/>
+            <img class="booklet _l" src="./images/image 33.svg"/>
+          </div>
+          <div class="adobe">
+            <img class="about-count" src="./images/4.svg"alt="цифра четыре"/>
+            <p class="about__text">
+              Современная лицензия CorelDraw может оцениваться в 600 долларов в год на одного пользователя, что может быть финансово недоступным для многих типографий. Из-за этого они вынуждены использовать устаревшие версии программы, что может привести к искаженному отображению контента.
+            </p>
+          </div>
+          <div class="adobe">
+            <img class="about-count" src="./images/5.svg"alt="цифра пять"/>
+            <p class="about__text">
+            Обучение наших дизайнеров работе в CorelDraw требовало бы значительного времени. Учитывая, что это формат с тенденцией к упадку, вкладывание человеческого капитала в него становится неоправданно.
+          </p>
+          </div>
+          <p class="about__text _m">​​Используя среду Adobe, мы вкладываемся в инновации, качество и признание в мировом масштабе. Присоединяйтесь к нам в этом увлекательном путешествии в мир творчества, где каждый проект становится настоящим произведением искусства.</p>
+        </div>
+      </div>
+      </section>
+      <section class="gallery">
+        <div class="pictures">
+          <img class="picture" src ="./images/Коробка для столика 1.png" alt="коробка для столика"/>
+          <img class="picture" src ="./images/Коробка для столика 5.png" alt="стаканчик кофе"/>
+          <img class="picture" src ="./images/Коробка для столика 6.png" alt="лекарство"/>
+          <img class="picture" src ="./images/Коробка для столика 7.png" alt="листовка отеля"/>
+          <img class="picture" src ="./images/Коробка для столика 9.svg" alt="сертификат"/>
+          <img class="picture" src ="./images/Коробка для столика 8.svg" alt="листовка бибихауз"/>
+          <img class="picture" src ="./images/Коробка для столика 10.png" alt="буклет вегетория"/>
+          <img class="picture" src ="./images/Коробка для столика 11.png" alt="медовик"/>
+          <img class="picture" src ="./images/Коробка для столика 12.png" alt="ресторан"/>
+          <img class="picture" src ="./images/Коробка для столика 13.png" alt="каталог"/>
+        </div>
+      </div>
+     </section>
+   </main>
+  <footer class="footer">
+  </footer>
+ </body>
 </html>

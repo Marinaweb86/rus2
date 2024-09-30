@@ -1,84 +1,245 @@
-@import url(../vendor/normalize.css);
+body {
+  max-width: 1920px;
+  background-color: #171422;
+  color: #ffffff;
+  font-family: Gotham Pro;
+}
 
-@import url(../blocks/page/page.css);
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/logo/_place/logo_place_header.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__main-illustration/header__main-illustration.css);
-@import url(../blocks/header/__square-pic/header__square-pic.css);
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(
+    90.09deg,
+    #9e0b37 0.98%,
+    #ffc531 72.22%,
+    #9e0b37 99.95%
+  );
+}
 
-@import url(../blocks/description/description.css);
-@import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/two-columns/__brief/two-columns__brief.css);
-@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
-@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+.header-menu {
+  display: flex;
+  gap: 72px;
+  text-align: left;
+}
 
-@import url(../blocks/techniques/techniques.css);
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/__item/cards__item.css);
-@import url(../blocks/cards/__image/cards__image.css);
-@import url(../blocks/cards/__title/cards__title.css);
-@import url(../blocks/cards/__description/cards__description.css);
+.header__link {
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.31px;
+}
 
-@import url(../blocks/video/video.css);
-@import url(../blocks/video/__iframes/video__iframes.css);
-@import url(../blocks/video/__iframe/video__iframe.css);
+.header__link_active {
+  margin-top: 2.5px;
+  font-family: Gotham Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.31px;
+}
 
-@import url(../blocks/oakley/oakley.css);
+.header__links-list-item {
+  width: 51px;
+  height: 15px;
+  margin-top: 32px;
+  opacity: 0px;
+  font-family: Gotham Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.31px;
+}
 
-@import url(../blocks/feynman/feynman.css);
-@import url(../blocks/feynman/__title/feynman__title.css);
-@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
-@import url(../blocks/feynman/__link/feynman__link.css);
+.header-button {
+  width: 160px;
+  height: 49px;
+  margin: 15px 0 16px 42px;
+  border: none;
+  border-radius: 40px;
+  opacity: 0px;
+  color: #ffffff;
+  box-shadow: 4px 4px 20px 0px #df5017cc;
+  box-shadow: 4px 4px 6px 0px #ffffff80 inset;
+  background: #9e0b37b3;
+  font-family: Gotham Pro;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 16.27px;
+}
 
-@import url(../blocks/digits/digits.css);
-@import url(../blocks/table/table.css);
-@import url(../blocks/table/__cell/table__cell.css);
-@import url(../blocks/table/__heading/table__heading.css);
-@import url(../blocks/table/__text/table__text.css);
+.why {
+  display: flex;
+  height: 570px;
+  margin-bottom: 100px;
+  background-image: linear-gradient(
+      123.33deg,
+      #df5017 4.42%,
+      rgba(223, 80, 23, 0.440343) 22.08%,
+      rgba(223, 80, 23, 0.19) 35.36%,
+      rgba(223, 80, 23, 0) 52.74%
+    ),
+    linear-gradient(
+      90.01deg,
+      #282533 65.15%,
+      #282533 65.15%,
+      rgba(40, 37, 51, 0.739583) 82.21%,
+      rgba(40, 37, 51, 0) 99.99%
+    ),
+    url("/images/virtual-reality-scenes-depicting-global-connection-00528-02\ 1.png");
+}
 
-@import url(../blocks/khan/khan.css);
-@import url(../blocks/khan/__container/khan__container.css);
-@import url(../blocks/khan/__author/khan__author.css);
-@import url(../blocks/khan/__quote/khan__quote.css);
-@import url(../blocks/khan/__quote-author/khan__quote-author.css);
-@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
-@import url(../blocks/khan/__title/khan__title.css);
-@import url(../blocks/khan/__book-container/khan__book-container.css);
-@import url(../blocks/khan/__book-pic/khan__book-pic.css);
-@import url(../blocks/khan/__buy-link/khan__buy-link.css);
+.why__title {
+  width: 820px;
+  font-family: Gotham Pro;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60px;
+  text-transform: uppercase;
+  margin: 181px auto;
+}
 
-@import url(../blocks/kaufman/kaufman.css);
-@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
-@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
-@import url(../blocks/table/_theme/table_theme_dark.css);
-@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
-@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
-@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
-@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+.about {
+  display: block;
+  margin-bottom: 80px;
+}
 
-@import url(../blocks/resources/resources.css);
-@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
-@import url(../blocks/resources/__logo/resources__logo.css);
+.about-block {
+  display: flex;
+  width: 1180px;
+  height: 152px;
+  margin-left: 250px;
+  border-radius: 30px;
+  background: linear-gradient(
+    90.95deg,
+    #ffa462 0%,
+    #b45350 21.79%,
+    #8a2645 48.93%,
+    #291725 84.55%
+  );
+}
 
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
-@import url(../blocks/logo/_place/logo_place_footer.css);
-@import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/footer/__column/_content/footer__column_content_info.css);
-@import url(../blocks/footer/__column-heading/footer__column-heading.css);
-@import url(../blocks/footer/__column-links/footer__column-links.css);
-@import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/footer/__column/_content/footer__column_content_social.css);
-@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+.adobe {
+  display: flex;
+}
 
-@import url(../blocks/rotation/rotation.css);
+.about__text {
+  font-family: Gotham Pro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.8px;
+}
 
-@import url(../blocks/link/link.css);
+.about__text._m {
+  margin-left: 250px;
+}
+
+.about__text._right {
+  text-align: right;
+}
+
+.about-count {
+  margin-left: 250px;
+}
+
+.about-count._s {
+  margin-right: 42px;
+}
+
+.about__list {
+  list-style-type: none;
+  margin: 0 370px;
+  min-height: 124px;
+  gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 268px);
+  grid-template-rows: repeat(3, 62px);
+}
+
+.container {
+  background: #ffffff;
+  width: 268px;
+  height: 62px;
+  margin-top: 40px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+  align-self: center;
+}
+
+.about-image {
+  width: 121.74px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 70px;
+  margin-top: 8px;
+}
+
+.corel-group {
+  margin-left: 490px;
+}
+
+.corel {
+  margin-right: 89px;
+}
+
+.vectors {
+  margin-left: 764px;
+}
+
+.groups {
+  margin-left: 580px;
+}
+
+.group._l {
+  margin-left: 450px;
+}
+
+.booklets {
+  display: flex;
+  margin-left: 242px;
+  gap: 18px;
+}
+
+.booklet._l {
+  margin-left: 60px;
+}
+
+.gallery {
+  position: relative;
+  overflow: hidden;
+}
+
+.pictures {
+  display: grid;
+  grid-template-columns: repeat(6, 403px);
+  grid-template-rows: repeat(2, 280px);
+  gap: 20px;
+}
+
+.picture {
+  width: 402.5px;
+  height: 280px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+  animation: gallery 10s linear infinite;
+}
+
+@keyframes gallery {
+  0% {
+    transform: translateZ(0);
+  }
+
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.footer {
+  height: 244px;
+}

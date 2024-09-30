@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Abel;
+  src:
+    url(./Abel-Regular.ttf) format('truetype');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+  font-family: Gotham Pro;
+  src:
+    url(./Gotham\ Pro.ttf) format('truetype');
+
+    font-style: normal;
+    font-weight: normal;
+}
